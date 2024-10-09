@@ -153,6 +153,7 @@ To deploy the latest version of your project to GitHub Pages, follow these steps
    ```
 
 After running this command, your dashboard will be deployed to GitHub Pages. Once the deployment is complete, you can access your live dashboard at the following URL:
+
 `https://nguyenlamvu88.github.io/dsci_554_a6_dashboard/`
 
 ## Project Structure
