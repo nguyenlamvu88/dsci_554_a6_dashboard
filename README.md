@@ -1,88 +1,106 @@
 
-# DSCI 554 Dashboard Project Setup
+# DSCI 554 Data Visualization Dashboard
 
-This README provides a detailed guide for setting up, building, and deploying a React-based dashboard project using Webpack and GitHub Pages.
+This project is a data visualization dashboard built using React, D3.js, and Bootstrap. It was developed as part of the DSCI 554 course assignment. The dashboard displays comparative data visualizations for different datasets and has been deployed using GitHub Pages.
 
-## Prerequisites
+## Table of Contents
+- [Project Setup](#project-setup)
+- [Development](#development)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
 
-Ensure you have the following installed:
-- Node.js (https://nodejs.org/)
-- npm (Node package manager, which comes with Node.js)
+## Project Setup
 
-## Project Setup Steps
+To get started with this project, you'll need to follow these setup instructions:
 
-1. **Clone the repository**: 
+### Prerequisites
+
+Make sure you have the following installed on your local machine:
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/nguyenlamvu88/dsci_554_a6_dashboard.git
+   ```
+
+2. **Navigate into the project directory:**
+   ```bash
    cd dsci_554_a6_dashboard
    ```
 
-2. **Install dependencies**:
+3. **Install the project dependencies:**
    ```bash
    npm install
    ```
+   This command installs all the necessary packages and dependencies listed in package.json.
 
-## Project Structure
-
-- `/public`: Contains the `index.html` file.
-- `/src`: Contains React components and other source files.
-- `/src/components`: Contains the JavaScript files converted from HTML visualizations.
+### Configuration
+No additional configuration is required for this project.
 
 ## Development
+To start the development server and view the dashboard locally:
 
-### Creating React Components
+1. **Run the development server:**
+   ```bash
+   npm start
+   ```
+   
+2. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
-- If you have HTML files for visualizations, convert each visualization into a React component and place them in the `/src/components` directory.
+This command will start the Webpack dev server, allowing you to make changes to your code and see the updates in real-time.
 
-### Webpack Configuration
+## Deployment
+The project is configured to deploy to GitHub Pages automatically using the gh-pages package.
 
-- Ensure your `webpack.config.js` is set up properly to bundle JavaScript files and handle styles.
-- Key configuration includes setting the entry point, output file, loaders for CSS and JS, and plugins for HTML generation.
+### Deployment Steps
+To deploy the latest version of your project to GitHub Pages, follow these steps:
 
-## Build and Deploy
+1. **Build the project:**
+   ```bash
+   npm run build
+   ```
 
-### Build the Project
-
-Run the following command to bundle your application:
-```bash
-npm run build
-```
-
-### Deploy to GitHub Pages
-
-1. Ensure the `homepage` field in `package.json` is set to your repository's URL.
-2. Deploy the project to GitHub Pages:
+2. **Deploy to GitHub Pages:**
    ```bash
    npm run deploy
    ```
 
-## Viewing the Dashboard
+Your dashboard will be deployed to GitHub Pages and can be accessed at: [https://nguyenlamvu88.github.io/dsci_554_a6_dashboard/](https://nguyenlamvu88.github.io/dsci_554_a6_dashboard/)
 
-After deployment, you can view the dashboard at:
-- `https://<your-username>.github.io/dsci_554_a6_dashboard`
+## Project Structure
+```
+├── node_modules
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   ├── Visualization1.js
+│   │   ├── Visualization2.js
+│   │   └── ...
+│   ├── index.css
+│   └── index.js
+├── .babelrc
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── webpack.config.js
+└── README.md
+```
 
-Replace `<your-username>` with your GitHub username.
+- **public/index.html** - The main HTML file.
+- **src/index.js** - Entry point for the React app.
+- **src/components/** - Contains individual visualization components.
+- **webpack.config.js** - Webpack configuration file for building the project.
+- **.babelrc** - Babel configuration file for transpiling JSX and ES6+ code.
 
-## Additional Notes
-
-- **React and Webpack Integration**: The project integrates React with Webpack for modular and efficient builds.
-- **Deployment**: Uses `gh-pages` to deploy the built project to GitHub Pages.
-- **Customization**: You can modify the components inside `/src/components` to suit your data visualization needs.
-
-## Troubleshooting
-
-- Ensure that all dependencies are correctly installed with `npm install`.
-- If you encounter issues with the build, try clearing the npm cache and reinstalling the modules:
-   ```bash
-   npm cache clean --force
-   npm install
-   ```
-
-- For errors related to `webpack` or missing loaders, install them as follows:
-   ```bash
-   npm install style-loader css-loader html-loader --save-dev
-   ```
-
-## License
-
-This project is licensed under the MIT License.
+## Technologies Used
+- **React** - Front-end JavaScript library for building user interfaces.
+- **D3.js** - Library for creating dynamic and interactive data visualizations.
+- **Bootstrap** - CSS framework for building responsive layouts.
+- **Webpack** - Module bundler for packaging JavaScript and assets.
+- **Babel** - JavaScript compiler for using the latest JavaScript features.
+- **GitHub Pages** - Service for hosting static websites directly from a GitHub repository.
