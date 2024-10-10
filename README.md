@@ -12,20 +12,13 @@ This project is a data visualization dashboard built using React, D3.js, and Boo
 
 ## Project Setup
 
-### Prerequisites
-
-Make sure you have the following installed on your local machine:
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-- Basic understanding of using terminal/command prompt.
-
 ### Step-by-Step Setup Instructions
 
 Follow these steps to set up your project environment from scratch:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/nguyenlamvu88/dsci_554_a6_dashboard.git
+   git clone [https://github.com/nguyenlamvu88/DSCI-554/a6-nguyenlamvu88](https://github.com/DSCI-554/a6-nguyenlamvu88.git)
    ```
 
 2. **Navigate into the project directory:**
