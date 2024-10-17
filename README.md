@@ -55,13 +55,13 @@ Ensure you have Python 3.7 or higher installed. Follow the steps below to set up
 2. **Install the required packages:**
 
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 
 Alternatively, install the packages directly:
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost chardet```
-
-Note: To install XGBoost on Windows, refer to the XGBoost Installation Guide.
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost chardet
+   ```
 
 ## Usage
 
