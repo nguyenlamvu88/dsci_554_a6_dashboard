@@ -63,9 +63,7 @@ Alternatively, install the packages directly:
    pip install pandas numpy matplotlib seaborn scikit-learn xgboost chardet
    ```
 
-## Usage
-
-The analysis is conducted using a single Jupyter Notebook that sequentially addresses all assignment requirements. Follow the steps below to execute the analysis:
+## Decision Trees and Advanced Regression Techniques
 
 ### 1. Decision Trees as Interpretable Models
 
