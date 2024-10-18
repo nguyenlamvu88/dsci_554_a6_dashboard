@@ -163,6 +163,6 @@ The analysis encompasses both classification and regression tasks, providing ins
 - **XGBoost Regressor:** Delivered superior predictive capabilities through advanced boosting techniques and meticulous hyperparameter tuning, outperforming traditional regression models.
 
 #### Model Evaluation:
-- Metrics like Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) were consistently used to evaluate and compare model performances, providing quantitative measures of predictive accuracy.
+- Metrics like Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) were used to evaluate and compare model performances, providing quantitative measures of predictive accuracy.
 
 
