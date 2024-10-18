@@ -11,10 +11,10 @@ This assignment provides an analysis and predictive modeling project using two d
 ## Table of Contents
 
 - [Overview](#overview)
-- [Assignment Structure](#assignment structure)
+- [Assignment Structure](#Assignment-Structure)
 - [Datasets](#datasets)
 - [Installation](#installation)
-- [Techniques](#Decision Trees and Advanced Regression Techniques)
+- [Techniques](#Decision-Trees-and-Advanced-Regression-Techniques)
   - [1. Decision Trees as Interpretable Models](#1-decision-trees-as-interpretable-models)
     - [1.a. Download Acute Inflammations Data](#1a-download-acute-inflammations-data)
     - [1.b. Build and Plot Decision Tree](#1b-build-and-plot-decision-tree)
