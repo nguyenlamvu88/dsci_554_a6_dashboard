@@ -11,6 +11,7 @@ This assignment provides an analysis and predictive modeling project using two d
 ## Table of Contents
 
 - [Overview](#overview)
+- [Assignment Structure](#Assignment Structure)
 - [Datasets](#datasets)
 - [Installation](#installation)
 - [Techniques](#Decision Trees and Advanced Regression Techniques)
@@ -32,6 +33,17 @@ This assignment provides an analysis and predictive modeling project using two d
     - [2.j. Fit XGBoost Regressor](#2j-fit-xgboost-regressor)
 - [Results](#results)
 - [License](#license)
+
+## Assignment Structure
+
+```
+.
+├── data/                          # Acute Inflammations and Violent Crimes dataset
+├── notebook/
+│   └── notebook.ipynb             # Jupyter notebook with code
+├── requirements.txt               # Python dependencies
+└── README.md                      # Assignment documentation
+```
 
 ## Datasets
 
