@@ -3,7 +3,7 @@ Vu Nguyen, USCID: 2120314402
 
 ## Overview
 
-This assignment provides a comprehensive analysis and predictive modeling project using two distinct datasets. The first focuses on **Decision Trees** for **interpretable modeling**, while the second applies **Advanced Regression Techniques** like **LASSO**, **Ridge**, **PCR**, and **XGBoost** to enhance predictive performance.
+This assignment provides an analysis and predictive modeling project using two distinct datasets. The first focuses on **Decision Trees** for **interpretable modeling**, while the second applies **Advanced Regression Techniques** like **LASSO**, **Ridge**, **PCR**, and **XGBoost** to enhance predictive performance.
 
 1. **Acute Inflammations Dataset:** Focused on building interpretable Decision Tree models to predict inflammation of the bladder.
 2. **Communities and Crime Dataset:** Involves data cleaning, exploratory data analysis (EDA), feature engineering, and implementing various regression models, including Linear Regression, Ridge Regression, LASSO, Principal Component Regression (PCR), and XGBoost to predict violent crimes per population.
