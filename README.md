@@ -43,13 +43,11 @@ This assignment provides an analysis and predictive modeling project using two d
 
 ## Installation
 
-Ensure you have Python 3.7 or higher installed. Follow the steps below to set up the environment:
-
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/acute-inflammations-violent-crimes-analysis.git
-   cd acute-inflammations-violent-crimes-analysis```
+   git clone https://github.com/nguyenlamvu88/homework-3-nguyenlamvu88.git
+   ```
 
 2. **Install the required packages:**
 
