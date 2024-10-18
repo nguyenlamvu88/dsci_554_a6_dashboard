@@ -1,20 +1,19 @@
 # Acute Inflammations and Violent Crimes Analysis
+Vu Nguyen, USCID: 2120314402
 
 ## Overview
 
-This repository presents a comprehensive analysis and predictive modeling project addressing two distinct datasets:
+This assignment provides a comprehensive analysis and predictive modeling project using two distinct datasets. The first focuses on **Decision Trees** for **interpretable modeling**, while the second applies **Advanced Regression Techniques** like **LASSO**, **Ridge**, **PCR**, and **XGBoost** to enhance predictive performance.
 
 1. **Acute Inflammations Dataset:** Focused on building interpretable Decision Tree models to predict inflammation of the bladder.
 2. **Communities and Crime Dataset:** Involves data cleaning, exploratory data analysis (EDA), feature engineering, and implementing various regression models, including Linear Regression, Ridge Regression, LASSO, Principal Component Regression (PCR), and XGBoost to predict violent crimes per population.
-
-The project is structured to meet specific assignment requirements, facilitating a clear understanding of data preprocessing, model building, evaluation, and interpretation across both classification and regression tasks.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Datasets](#datasets)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Techniques](#Decision Trees and Advanced Regression Techniques)
   - [1. Decision Trees as Interpretable Models](#1-decision-trees-as-interpretable-models)
     - [1.a. Download Acute Inflammations Data](#1a-download-acute-inflammations-data)
     - [1.b. Build and Plot Decision Tree](#1b-build-and-plot-decision-tree)
