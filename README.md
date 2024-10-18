@@ -11,7 +11,7 @@ This assignment provides an analysis and predictive modeling project using two d
 ## Table of Contents
 
 - [Overview](#overview)
-- [Assignment Structure](#Assignment Structure)
+- [Assignment Structure].(#Assignment Structure)
 - [Datasets](#datasets)
 - [Installation](#installation)
 - [Techniques](#Decision Trees and Advanced Regression Techniques)
