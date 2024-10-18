@@ -39,6 +39,10 @@ This assignment provides an analysis and predictive modeling project using two d
 ```
 .
 ├── data/                          # Acute Inflammations and Violent Crimes dataset
+│   └── communities.data
+│   └── communities.names
+│   └── diagnosis.data
+│   └── diagnosis.names
 ├── notebook/
 │   └── notebook.ipynb             # Jupyter notebook with code
 ├── requirements.txt               # Python dependencies
