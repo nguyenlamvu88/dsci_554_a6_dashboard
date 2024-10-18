@@ -67,7 +67,7 @@ This assignment provides an analysis and predictive modeling project using two d
    pip install -r requirements.txt
    ```
 
-Alternatively, install the packages directly:
+- Alternatively, install the packages directly:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn xgboost chardet
    ```
